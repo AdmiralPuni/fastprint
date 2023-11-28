@@ -1,0 +1,106 @@
+@font-face {
+    font-family: PoppinsNormal;
+    src: url('../assets/Poppins-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url('../assets/Poppins-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PoppinsLight;
+    src: url('../assets/Poppins-Light.ttf');
+    font-weight: light;
+}
+
+body{
+    font-family: 'PoppinsNormal', sans-serif;
+}
+
+.fw-bold{
+    font-family: 'PoppinsBold', sans-serif;
+}
+
+.fw-light{
+    font-family: 'PoppinsLight', sans-serif;
+}
+
+:root{
+    --tblue: #5BCEFA;
+    --tpink: #F5A9B8;
+}
+
+.bg-tblue{
+    background-color: var(--tblue);
+}
+
+.bg-tpink{
+    background-color: var(--tpink);
+}
+
+.text-tblue{
+    color: var(--tblue);
+}
+
+.text-tpink{
+    color: var(--tpink);
+}
+
+.border-tblue{
+    border-color: var(--tblue) !important;
+}
+
+.border-tpink{
+    border-color: var(--tpink);
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.card{
+    border-radius: 0;
+}
+
+.w-side, .w-sidebar{
+    width: 256px;
+    min-width: 256px;
+}
+
+.form-control{
+    border-radius: 0;
+}
+
+.row-cols-md-2 > .col:nth-child(odd){
+    padding-right: 0.25rem !important;
+}
+
+.row-cols-md-2 > .col:nth-child(even){
+    padding-left: 0.25rem !important;
+}
+
+.card{
+    background-color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+    .w-side {
+        display: none;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .col{
+        padding: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
