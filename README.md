@@ -42,6 +42,16 @@ perubahan dilakukan untuk mempermudah dan menyederhanakan operasi data
 | id            | INT - primary - autoincrement  |
 | nama          | VARCHAR(32)                    |
 
+## API Endpoints
+
+Codeigniter 3 & Django memiliki endpoints yang sama
+
+| Url                  | Methods                        |
+| -------------------- | ------------------------------ |
+| api/v1/kategori      | POST PUT DELETE GET            |
+| api/v1/status        | POST PUT DELETE GET            |
+| api/v1/produk        | POST PUT DELETE GET            |
+
 ## Preview
 
 Semua fungsi sudah sesuai dengan spesifikasi (create, read, update, dan delete)
